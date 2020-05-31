@@ -1,0 +1,42 @@
+    h1 {
+      color:orange;
+      text-align: center;
+    }
+    h2 {
+      color: green;
+      text-align: center;
+    }
+    body {
+      background-color: cyan;
+    }
+    ul {
+      color: red;
+    }
+    .link {
+      color: magenta;
+      text-decoration-style: wavy;
+      font-size: 24px;
+    }
+    ol {
+      color: yellow;
+      text-align: center;
+      font-size: 30px;
+    }
+    img {
+      width: 500px;
+      height: 350px;
+    }
+    table {
+      border: 2px solid green;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    th, td {
+      border: 1px solid green;
+      padding: 5px;
+      text-align: center;
+    }
+    th {
+      background-color: lime;
+    }
