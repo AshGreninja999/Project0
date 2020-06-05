@@ -1,60 +1,81 @@
-    h1 {
-      color:orange;
-      text-align: center;
-    }
-    h2 {
-      color: green;
-      text-align: center;
-    }
-    body {
-      background-color: cyan;
-    }
-    ul {
-      color: red;
-    }
-    .link {
-      color: magenta;
-      text-decoration-style: wavy;
-      font-size: 24px;
-    }
-    ol {
-      color: yellow;
-      text-align: center;
-      font-size: 30px;
-    }
-    img {
-      width: 500px;
-      height: 350px;
-    }
-  @media (max-width: 499px) {
-    .link  {
-      font-size: 12px;
-          }
-    ol {
-      font-size: 15px;
-    }
-    img {
-      width: 250px;
-      length: 175px;
-    }
-        }
-    table {
-      border: 2px solid green;
-      border-collapse: collapse;
-      width: 100%;
-      height:500px;
-    }
+h1 {
+  color: orange;
+  text-align: center; }
 
-    th, td {
-      border: 1px solid green;
-      padding: 5px;
-      text-align: center;
-    }
-    th {
-      background-color: lime;
-      color: red;
-      font-size: 150%;
-    }
-    .bold {
-      font-style: italic;
-    }
+h2 {
+  color: green;
+  text-align: center; }
+
+body {
+  background-color: cyan; }
+
+ul {
+  color: red; }
+
+.link {
+  color: magenta; }
+
+.link {
+  text-decoration-style: wavy;
+  font-size: 24px; }
+
+#Honor {
+  color: magenta; }
+
+ol {
+  color: yellow;
+  text-align: center;
+  font-size: 30px; }
+
+img {
+  width: 500px;
+  height: 350px; }
+
+@media (max-width: 499px) {
+  .link {
+    font-size: 12px; }
+
+  ol {
+    font-size: 15px; }
+
+  img {
+    width: 250px;
+    length: 175px; }
+
+  h1 {
+    font-size: 125%; }
+
+  h2 {
+    font-size: 100%; }
+
+  table tr td div {
+    font-size: 75%; } }
+table {
+  border: 0px solid green;
+  border-collapse: collapse;
+  width: 100%;
+  height: 500px; }
+  table th, table td {
+    border: 0px solid green;
+    padding: 5px;
+    text-align: center; }
+  table th {
+    background-color: lime;
+    color: red;
+    font-size: 150%; }
+  table td div {
+    color: red;
+    font-size: 100%; }
+
+.bold {
+  color: red; }
+
+.bold {
+  font-style: italic; }
+
+.row > div {
+  padding: 20px;
+  background-color: lime;
+  border: 2px solid green; }
+
+/*# sourceMappingURL=style.css.map */
